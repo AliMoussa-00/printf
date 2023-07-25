@@ -50,6 +50,9 @@ int print_Hex(va_list args);
 int get_hex(unsigned int n);
 int print_hex(va_list args);
 
+/** print_S.c **/
+int print_S(va_list args);
+
 /** print_rev.c **/
 int print_rev(va_list args);
 

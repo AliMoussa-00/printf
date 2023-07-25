@@ -24,6 +24,7 @@ int print_func(va_list args, char format)
 		{"r", print_rev},
 		{"R", print_rot13},
 		{"b", print_bin},
+		{"S", print_S},
 		{NULL, NULL}
 	};
 	int i, len = 0;
