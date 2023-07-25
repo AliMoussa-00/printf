@@ -29,6 +29,9 @@ int print_char(va_list args);
 int print_string(va_list args);
 int print_percent(va_list args);
 
+/** print_bin.c **/
+int print_bin(va_list args);
+
 /** numbers.c **/
 int print_digit(int n);
 int print_int(va_list args);

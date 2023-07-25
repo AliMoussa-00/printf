@@ -23,6 +23,7 @@ int print_func(va_list args, char format)
 		{"X", print_Hex},
 		{"r", print_rev},
 		{"R", print_rot13},
+		{"b", print_bin},
 		{NULL, NULL}
 	};
 	int i, len = 0;
