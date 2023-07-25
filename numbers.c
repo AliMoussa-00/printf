@@ -11,7 +11,7 @@ int print_digit(int n)
 	unsigned int k = n;
 	int len = 0;
 
-	if (n < 0)
+	if (n < 0 && n != INT_MIN)
 	{
 		_putchar('-');
 		n *= -1;
