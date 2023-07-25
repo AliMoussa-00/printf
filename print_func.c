@@ -21,6 +21,7 @@ int print_func(va_list args, char format)
 		{"o", print_oct},
 		{"x", print_hex},
 		{"X", print_Hex},
+		{"r", print_rev},
 		{NULL, NULL}
 	};
 	int i, len = 0;

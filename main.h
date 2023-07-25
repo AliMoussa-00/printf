@@ -47,6 +47,9 @@ int print_Hex(va_list args);
 int get_hex(unsigned int n);
 int print_hex(va_list args);
 
+/** print_rev.c **/
+int print_rev(va_list args);
+
 int print_func(va_list args, char format);
 int _printf(const char *format, ...);
 
