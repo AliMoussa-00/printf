@@ -12,6 +12,11 @@ int print_bin(va_list args)
 	int len = 0;
 	int i = 0, j;
 
+	if (n == 0)
+	{
+		_putchar('0');
+		return (1);
+	}
 	while (n > 0)
 	{
 		a[i] = n % 2;
@@ -21,7 +26,7 @@ int print_bin(va_list args)
 
 	for (j = i - 1; j >= 0; j--)
 	{
-		putchar(a[j] + '0');
+		_putchar(a[j] + '0');
 		len++;
 	}
 	return (len);
