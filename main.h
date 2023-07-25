@@ -59,6 +59,10 @@ int print_rev(va_list args);
 /** print_rot13.c **/
 int print_rot13(va_list args);
 
+/** print_P.c **/
+int get_pointer_hex(unsigned long int n);
+int print_P(va_list args);
+
 int print_func(va_list args, char format);
 int _printf(const char *format, ...);
 
