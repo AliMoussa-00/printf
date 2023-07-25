@@ -19,10 +19,10 @@ int _putchar(char c)
  */
 int _is_specifier(char c)
 {
-	char specs[] = {'c', 's', '%', 'd', 'i'};
+	char specs[] = {'c', 's', '%', 'd', 'i', 'u', 'o', 'x', 'X'};
 	int i = 0;
 
-	while (i < 5)
+	while (specs[i])
 	{
 		if (c == specs[i])
 			return (1);

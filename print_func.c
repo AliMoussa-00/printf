@@ -17,6 +17,10 @@ int print_func(va_list args, char format)
 		{"%", print_percent},
 		{"d", print_int},
 		{"i", print_int},
+		{"u", print_unsign},
+		{"o", print_oct},
+		{"x", print_hex},
+		{"X", print_Hex},
 		{NULL, NULL}
 	};
 	int i, len = 0;

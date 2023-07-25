@@ -33,6 +33,20 @@ int print_percent(va_list args);
 int print_digit(int n);
 int print_int(va_list args);
 
+/** print_unsigned.c **/
+int get_unsign(unsigned int n);
+int print_unsign(va_list args);
+
+/** print_oct.c **/
+int get_oct(unsigned int n);
+int print_oct(va_list args);
+
+/** print_hex_Hex.c **/
+int get_Hex(unsigned int n);
+int print_Hex(va_list args);
+int get_hex(unsigned int n);
+int print_hex(va_list args);
+
 int print_func(va_list args, char format);
 int _printf(const char *format, ...);
 
