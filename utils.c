@@ -12,6 +12,26 @@ int _putchar(char c)
 }
 
 /**
+ * _is_specifier - check if char c is valid
+ * @c: specifier.
+ *
+ * Return: if success 1 else 0.
+ */
+int _is_specifier(char c)
+{
+	char specs[] = {'c', 's', '%', 'd', 'i'};
+	int i = 0;
+
+	while (i < 5)
+	{
+		if (c == specs[i])
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
+/**
  * _strlen - count the length of string
  *
  * @s: string.

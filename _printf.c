@@ -20,7 +20,7 @@ int _printf(const char *format, ...)
 	i = 0;
 	while (format[i] != '\0')
 	{
-		if (format[i] == '%')
+		if (format[i] == '%' && _is_specifier(format[i + 1]))
 		{
 			len += print_func(args, format[i + 1]);
 			i++;

@@ -22,6 +22,7 @@ typedef struct specifiers
 
 /** utils.c **/
 int _putchar(char c);
+int _is_specifier(char c);
 int _strlen(char *s);
 
 int print_char(va_list args);
